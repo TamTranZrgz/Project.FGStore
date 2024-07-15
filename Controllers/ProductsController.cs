@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Project.FGStore.Areas.Admin.Controllers
+namespace Project.FGStore.Controllers
 {
-    [Area("Admin")]
-    [Route("/admin")]
-    public class HomeController : Controller
+    [Route("/shop")]
+    public class ProductsController : Controller
     {
         [Route("")]
         public IActionResult Index()
